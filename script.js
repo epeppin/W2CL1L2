@@ -6,11 +6,20 @@ function calcLateFee() {
     //Collect Number of Late Books
     var numBooks = prompt("How many late Books?");
 
+    // Convert to a number data type (no decimals)
+    numBooks = parseInt(numBooks)
+
     //Collect Number of late DVD's
     var numDvds = prompt("How many late DVD's?");
 
+    // Convert to a number data type (no decimals)
+    numDvds = parseInt(numDvds)
+
     //Collect number of days late
     var numDaysLate = prompt("How many days Late?");
+
+    // Convert to a number data type (no decimals)
+    numDaysLate = parseInt(numDaysLate)
 
     // multiply number of late books by days late then by late fee
     var calcLateBooks = (numBooks * numDaysLate) * lateBook;
