@@ -1,35 +1,41 @@
-// Store Late fee's
-var lateBook = 0.25
-var lateDVD = 0.50
+$(document).ready (
 
-function calcLateFee() {
-    //Collect Number of Late Books
-    var numBooks = prompt("How many late Books?");
+function() {
+    // Store Late fee's
+    var lateBook = 0.25
+    var lateDVD = 0.50
 
-    // Convert to a number data type (no decimals)
-    numBooks = parseInt(numBooks)
+    //add event handler
 
-    //Collect Number of late DVD's
-    var numDvds = prompt("How many late DVD's?");
+    $("#calcButton").click(calcLateFee);
 
-    // Convert to a number data type (no decimals)
-    numDvds = parseInt(numDvds)
+    function calcLateFee() {
+        // get data from late books input and parse to number
+        var numBooks = parseInt($("#numBooks").val());
 
-    //Collect number of days late
-    var numDaysLate = prompt("How many days Late?");
+        //Collect Number of late DVD's input and parse to number
+        var numDvds = parseInt($("#numDvds").val());
 
-    // Convert to a number data type (no decimals)
-    numDaysLate = parseInt(numDaysLate)
+        //Collect number of days late and parse to number
+        var numDaysLate = parseInt($("#numDays").val());
 
-    // multiply number of late books by days late then by late fee
-    var calcLateBooks = (numBooks * numDaysLate) * lateBook;
+        // Convert to a number data type (no decimals)
+        numDaysLate = parseInt(numDaysLate)
 
-    //Multiply number of late DVD's by days late then by late fee
-    var calcLateDvds = (numDvds * numDaysLate) * lateDVD;
+        // multiply number of late books by days late then by late fee
+        var calcLateBooks = (numBooks * numDaysLate) * lateBook;
 
-    //Add Totals Together
-    var totalLateFee = calcLateBooks + calcLateDvds
+        //Multiply number of late DVD's by days late then by late fee
+        var calcLateDvds = (numDvds * numDaysLate) * lateDVD;
 
-    //Display Total Late Fee in Dollars
-    alert(`You Owe $${totalLateFee.toFixed(2)} in late fees`)
-}
+        //Add Totals Together
+        var totalLateFee = calcLateBooks + calcLateDvds
+
+        //Display Total Late Fee in Dollars on page
+        $("#totalOutput").text(totalLateFee.toFixed(2))
+
+        $(".display").show()
+    }
+
+    }
+)
