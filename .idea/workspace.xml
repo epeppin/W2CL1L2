@@ -8,9 +8,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7281dc70-a77d-4d4f-acab-d39cbcc5a568" name="Default Changelist" comment="Waukesha Late Fee 3">
+    <list default="true" id="7281dc70-a77d-4d4f-acab-d39cbcc5a568" name="Default Changelist" comment="Convert to jQuery">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../W2C3L3" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -54,7 +53,7 @@
       <workItem from="1603759960987" duration="1580000" />
       <workItem from="1603762688604" duration="618000" />
       <workItem from="1603822938451" duration="26000" />
-      <workItem from="1603927768299" duration="5043000" />
+      <workItem from="1603927768299" duration="5936000" />
     </task>
     <task id="LOCAL-00001" summary="Waukesha Late Fee">
       <created>1603760867891</created>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603762701096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Convert to jQuery">
+      <created>1603935795761</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603935795761</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,17 +142,19 @@
     <MESSAGE value="Waukesha Late Fee" />
     <MESSAGE value="Waukesha Late Fee 2" />
     <MESSAGE value="Waukesha Late Fee 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Waukesha Late Fee 3" />
+    <MESSAGE value="Convert to jQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convert to jQuery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603932569378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="414" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603932569378" />
-    <state x="1220" y="324" key="FileChooserDialogImpl" timestamp="1603761234183">
+    <state x="1220" y="324" key="FileChooserDialogImpl" timestamp="1603935839205">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1220" y="324" key="FileChooserDialogImpl/-896.1200.1920.1040/-1920.-2.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603761234183" />
+    <state x="1220" y="324" key="FileChooserDialogImpl/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603935839205" />
     <state x="1318" y="481" key="Github.ShareDialog" timestamp="1603761245229">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -155,10 +163,11 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603933634662" />
-    <state x="1032" y="316" key="Vcs.Push.Dialog.v2" timestamp="1603762703114">
+    <state x="1032" y="316" key="Vcs.Push.Dialog.v2" timestamp="1603935804867">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1032" y="316" key="Vcs.Push.Dialog.v2/-896.1200.1920.1040/-1920.-2.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603762703114" />
+    <state x="1032" y="316" key="Vcs.Push.Dialog.v2/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603935804867" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1603933478141">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
